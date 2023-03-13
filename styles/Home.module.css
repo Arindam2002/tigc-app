@@ -1,10 +1,46 @@
-.main {
+.main_column {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  /* align-items: center; */
+  /* padding: 6rem; */
+  height: 100vh;
+}
+
+.main_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
+  padding: 2rem;
+  height: 100vh;
+  flex-grow: 1;
+}
+
+.bottom_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+  padding: 2rem;
+  height: 100vh;
+  flex-grow: 1;
+}
+
+
+.left_column {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  
+}
+
+.right_column {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: flex-end;
 }
 
 .description {
